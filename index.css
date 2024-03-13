@@ -1,0 +1,77 @@
+.principal
+{
+    background-color:red;
+    padding: 100px;
+    display: flex;
+    /*flex-direction: row;*/
+    height: 100%;
+    /*text-align: center;*/
+    /*flex-wrap: wrap;*/
+    /*flex-direction: column;*/
+    /*align-content: space-around;*/
+    /*justify-content: space-between;*/
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+.caja
+{
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: flex;
+    background-color: blue;
+    width: 300px;
+    margin: 10px;
+    display: inline-block;
+    flex-direction:inline;
+    justify-content:space-between;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 90px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.caja1
+{
+background-color: brown;
+display:inline-block;
+height: 50px;
+width: 50px;
+justify-content: space-between;
+align-items: center;
+justify-content: center; 
+}
+.caja2
+{
+    background-color: green;
+    display:inline-block;
+    height: 70px;
+    width: 30px;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    display:inline-flex;
+    
+}
+.caja3
+{
+    background-color:yellow;
+    flex-flow: row wrap;
+    padding: 30px;
+    margin: 5px;
+    flex-direction: row;
+    flex: 1 1 100%;
+    display: flex
+}
+.caja3-1
+{
+    background-color:yellow;
+    flex-flow: row wrap;
+    padding: 30px;
+    margin: 5px;
+    align-items: end;
+    display: inline-block;
+    justify-content: space-between;
+    
+}
